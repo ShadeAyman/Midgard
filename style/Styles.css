@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'mainboi';
+    src: url(../fonts/norse/Norse-KaWl.otf)format('OpenType');
+}
+@font-face {
+    font-family: 'mainboi2';
+    src: url(../fonts/norse/NorseBold-2Kge.otf)format('OpenType');
+}
+
+body {
+    font-family: 'mainboi',sans-serif;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    background-image: url(../imgs/vikingboat.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 30%; 
+
+}
+h1
+{
+    font-family: 'mainboi2',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8e7;
+}
+
+.backgound{
+    /* background-image: url('../imgs/vikingboat.jpg'); */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.maincontainer
+{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+/*------------------------------------------------*/
+/*-----------------Dropdown menu----------------*/
+/* Dropdown Button */
+/* Dropdown Button */
+
+.dropbtn {
+    background-color:transparent;
+
+    font-size: 18px;
+    color: #F9FAF8;
+    border:solid;
+    padding: 10px 7px;
+    margin: 10px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 130px;
+    border-width: 1px;
+
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  a:hover{border-color:#3882f6; color: #3882f6;}
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {border-color:#3882f6; color: #3882f6;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {border-color:#3882f6; color: #3882f6;}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+
+    .nav-container{
+        display: flex;
+        color: #F9FAF8;
+        /* background-color: #1F2937; */
+        align-items: center;
+        padding: 20px 0px 20px 100px;
+
+
+    }
+
+        .leftNav{
+            font-size: 24px;
+            align-items: center;
+
+        }
+        .rightNav {
+        display: flex;
+        margin-left: auto;
+        padding-right: 100px;
+
+        }
+        .rightNav a{
+            text-decoration: none; 
+            color: #E5E7EB;
+            font-size: 18px;
+            padding: 10px;
+
+        }
+
+.txtimg{
+    display: flex;
+    color: #F9FAF8;
+    /* background-color: #1F2937; */
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+
+}
+.txtimg div{
+
+    flex-direction: column;
+}
+
+.txtimg div h1 {
+    font-size: 48px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-shadow:1px 1px 1px black;
+    
+}
+.txtimg div p{
+    font-size: 18px;
+    color: #F9FAF8;
+    text-align: center;
+        text-shadow:1px 1px 1px black;
+
+    
+}
+.txtimg div a{
+
+    font-size: 18px;
+    color: #F9FAF8;
+    border:solid;
+    padding: 10px 7px;
+    margin: 10px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    
+
+
+}
+
+.txtimg div a:hover{
+    border-color: #3882f6;
+    color: #3882f6;
+}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.imgSection {
+    
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    background-color: #F9FAF8;
+    opacity: 0.8;
+
+}
+.imgSection img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style:solid;
+
+}
+.imgSection .infoTitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.forimgs{
+    display: flex;
+    font-size: 18PX;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.forimgs p{
+    text-align: center;
+    width: 160px;
+}
+.forimgs img:hover{ 
+       border-style:solid;
+}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.quotSection {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quot
+{
+    
+    font-size: 30px;
+    font-style:italic;
+    color: #E5E7EB;
+}
+.quoter{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #E5E7EB;
+    text-align: right;
+    align-self: flex-end;
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.signupSection {
+    padding: 70px;
+    display: flex;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    opacity: 0.8;
+}
+
+.calltxtnbutton{
+
+    display: flex;
+    border-radius: 12px;
+    background-color: #3882f6;
+    padding: 20px 90px;
+    flex-direction: row;
+
+}
+.calltxt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 50px 10px 4px;
+    margin: 0px;
+    
+}
+.signupSection .title{
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding: 5px 20px 0px 0px;
+}
+
+
+.callbutton{
+    border-style: solid;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    align-self: center;
+    padding: 5px 30px 5px 30px;
+    margin: 0px;
+
+}
+.callbutton:hover
+{
+        background-color: #E5E7EB;
+    color:   #3882f6;
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.fotterSection {
+    padding: 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+    display :flex ;
+    align-items: center;
+    justify-content: center;
+}
