@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'mainboi';
-    src: url(../fonts/norse/Norse-KaWl.otf)format('OpenType');
+    src: url(fonts/norse/Norse-KaWl.otf)format('OpenType');
 }
 @font-face {
     font-family: 'mainboi2';
-    src: url(../fonts/norse/NorseBold-2Kge.otf)format('OpenType');
+    src: url(fonts/norse/NorseBold-2Kge.otf)format('OpenType');
 }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -61,7 +61,7 @@ body {
 	}
 
 	body {/*BACK GOURND MAIN*/
-	background-image: url(../imgs/talita-babireski-odin-talita-babireski.jpg);
+	background-image: url(/imgs/talita-babireski-odin-detail-1-talita-babireski.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     background-size:cover;
