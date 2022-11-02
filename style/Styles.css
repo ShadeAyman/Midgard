@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'mainboi';
-    src: url(fonts/norse/Norse-KaWl.otf)format('OpenType');
+    src: url(/fonts/norse/Norse-KaWl.otf)format('OpenType');
 }
 @font-face {
     font-family: 'mainboi2';
-    src: url(fonts/norse/NorseBold-2Kge.otf)format('OpenType');
+    src: url(/fonts/norse/NorseBold-2Kge.otf)format('OpenType');
 }
 
 body {
