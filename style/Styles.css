@@ -202,8 +202,13 @@ a{
     text-align: center;
     width: 160px;
 }
+.forimgs img{
+    color: transparent;
+}
 .forimgs img:hover{ 
        border-style:solid;
+       color: #123E59;
+
 }
 /*------------------------------------------------*/
 /*------------------------------------------------*/
