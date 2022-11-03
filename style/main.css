@@ -61,12 +61,10 @@ body {
 	}
 
 	body {/*BACK GOURND MAIN*/
-	background-image: url(../imgs/talita-babireski-odin-detail-1-talita-babireski.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     background-size:cover;
 	background-position: 50% 30%; 
-
 	background-color: #1a324e;
 	}
 
