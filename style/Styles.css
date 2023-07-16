@@ -1,22 +1,15 @@
-
-
-h1
-{
-    font-family: 'mainboi2',sans-serif;
+h1 {
+    font-family: 'mainboi2', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: #123E59;
 }
 
-.backgound{
-    /* background-image: url('imgs/vikingboat.jpg'); */
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-.maincontainer
-{
-    display:flex;
+
+.maincontainer {
+    display: flex;
     flex-direction: column;
 }
 
@@ -29,29 +22,30 @@ a{
 /* Dropdown Button */
 
 .dropbtn {
-    background-color:transparent;
+    background-color: transparent;
 
     font-size: 18px;
     color: #123E59;
-    border:solid;
+    border: solid;
     padding: 10px 7px;
     margin: 10px;
     border-width: 2px;
     border-color: white;
     border-radius: 5px;
-    
 
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
-    display: inline-block;            font-weight: bold;
+    display: inline-block;
+    font-weight: bold;
 
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
     min-width: 130px;
@@ -59,58 +53,74 @@ a{
     font-weight: bold;
 
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  a:hover{border-color:#123E59; color: #123E59;}
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {border-color: #123E59; color: #123E59;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {border-color:#123E59; color: #123E59;}
+}
+
+a:hover {
+    border-color: #123E59;
+    color: #123E59;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    border-color: #123E59;
+    color: #123E59;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    border-color: #123E59;
+    color: #123E59;
+}
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 
 
-    .nav-container{
-        display: flex;
-        color: #F9FAF8;
-        /* background-color: #1F2937; */
-        align-items: center;
-        padding: 20px 0px 20px 100px;
+.nav-container {
+    display: flex;
+    color: #F9FAF8;
+    /* background-color: #1F2937; */
+    align-items: center;
+    padding: 20px 0px 20px 100px;
 
 
-    }
+}
 
-        .leftNav{
-            font-size: 24px;
-            align-items: center;
+.leftNav {
+    font-size: 24px;
+    align-items: center;
 
-        }
-        .rightNav {
-        display: flex;
-        margin-left: auto;
-        padding-right: 100px;
+}
 
-        }
-        .rightNav a{
-            text-decoration: none; 
-            font-weight: bold;
-            font-size: 18px;
-            padding: 10px;
+.rightNav {
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
 
-        }
+}
 
-.txtimg{
+.rightNav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.txtimg {
     display: flex;
     color: #F9FAF8;
     /* background-color: #1F2937; */
@@ -119,50 +129,54 @@ a{
     padding: 90px;
 
 }
-.txtimg div{
+
+.txtimg div {
 
     flex-direction: column;
 }
 
 .txtimg div h1 {
-    font-size: 48px ;
+    font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    text-shadow:1px 1px 1px black;
-    
+    text-shadow: 1px 1px 1px black;
+
 }
-.txtimg div p{
+
+.txtimg div p {
     font-size: 18px;
     color: #F9FAF8;
     text-align: center;
-        text-shadow:1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
 
-    
+
 }
-.txtimg div a{
+
+.txtimg div a {
 
     font-size: 18px;
     color: #F9FAF8;
-    border:solid;
+    border: solid;
     padding: 10px 7px;
     margin: 10px;
     border-width: 2px;
     border-color: white;
     border-radius: 5px;
-    
+
 
 
 }
 
-.txtimg div a:hover{
+.txtimg div a:hover {
     border-color: #3882f6;
     color: #3882f6;
 }
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 
 .imgSection {
-    
+
     color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -172,14 +186,16 @@ a{
     opacity: 0.8;
 
 }
-.imgSection img{
+
+.imgSection img {
     width: 160px;
     height: 160px;
     border-radius: 10px;
     border-width: 4px;
-    border-style:solid;
+    border-style: solid;
 
 }
+
 .imgSection .infoTitle {
     text-align: center;
     font-weight: 900;
@@ -187,7 +203,7 @@ a{
 
 }
 
-.forimgs{
+.forimgs {
     display: flex;
     font-size: 18PX;
     border-radius: 5px;
@@ -198,18 +214,21 @@ a{
     align-content: center;
 }
 
-.forimgs p{
+.forimgs p {
     text-align: center;
     width: 160px;
 }
-.forimgs img{
+
+.forimgs img {
     color: transparent;
 }
-.forimgs img:hover{ 
-       border-style:solid;
-       color: #123E59;
+
+.forimgs img:hover {
+    border-style: solid;
+    color: #123E59;
 
 }
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 
@@ -221,14 +240,14 @@ a{
 
 }
 
-.quot
-{
-    
+.quot {
+
     font-size: 30px;
-    font-style:italic;
+    font-style: italic;
     color: #E5E7EB;
 }
-.quoter{
+
+.quoter {
     font-size: 36px;
     font-weight: bolder;
     color: #E5E7EB;
@@ -249,7 +268,7 @@ a{
     opacity: 0.8;
 }
 
-.calltxtnbutton{
+.calltxtnbutton {
 
     display: flex;
     border-radius: 12px;
@@ -258,7 +277,8 @@ a{
     flex-direction: row;
 
 }
-.calltxt{
+
+.calltxt {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -266,16 +286,17 @@ a{
     color: #E5E7EB;
     padding: 10px 50px 10px 4px;
     margin: 0px;
-    
+
 }
-.signupSection .title{
+
+.signupSection .title {
     font-size: 24px;
     margin-bottom: 0px;
     padding: 5px 20px 0px 0px;
 }
 
 
-.callbutton{
+.callbutton {
     border-style: solid;
     background-color: #123E59;
     color: #E5E7EB;
@@ -286,11 +307,11 @@ a{
     margin: 0px;
 
 }
-.callbutton:hover
-{
+
+.callbutton:hover {
     border-color: #123E59;
-        background-color: #E5E7EB;
-    color:   #123E59;
+    background-color: #E5E7EB;
+    color: #123E59;
 }
 
 /*------------------------------------------------*/
@@ -300,7 +321,7 @@ a{
     padding: 30px;
     font-size: 18px;
     color: #F9FAF8;
-    display :flex ;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
